@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  
+  #root {
+    @apply bg-neutral-950 text-neutral-100 h-screen p-5 overflow-hidden;
+  }
+
+  .title{
+    @apply text-neutral-400 text-base font-bold;
+  }
+
+  .link{
+    @apply text-neutral-500 hover:text-neutral-400 duration-300 text-base font-bold;
+  }
+
+  .btn{
+    @apply font-bold text-base text-neutral-950 bg-[#77b900] p-2 hover:bg-[#8ed600] transition-colors duration-300;
+  }
+
+}
+
+Canvas{
+    height: 100% !important;
+}
